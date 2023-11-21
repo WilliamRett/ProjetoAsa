@@ -5,15 +5,49 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<h1>Projeto Asa</h1>
+    o projeto asa foi idelizado como um teste onde analisaria meu codigo fonte e meu concept de arquitetura validando todos os pontos de um profissonal Senior.
+    <h2>Pré-requisitos</h2>
+    <p>
+        Antes de começar, certifique-se de ter os seguintes requisitos instalados:
+    </p>
+    <ul>
+        <li>Conta no SandBox do Asaas</li>
+        <li>Ter PHP8.2 na maquina</li>
+    </ul>
+    <h2>Configuração do Ambiente</h2>
+    <ol>
+        <li>
+            Clone este repositório:
+            <pre><code>git clone https://github.com/seu-usuario/ProjetoAsa.git</code></pre>
+        </li>
+        <li>
+            Navegue até o diretório do projeto:
+            <pre><code>cd ProjetoAsa</code></pre>
+        </li>
+        <li>
+            Instale as dependências:
+            <pre><code>composer install</code></pre>
+            ou
+            <pre><code>npm install</code></pre>
+        </li>
+    </ol>
+    <h2>Configuração do Ambiente de Desenvolvimento</h2>
+    <ol>
+        <li>
+            Execute o servidor de desenvolvimento:
+            <pre><code>php artisan serve</code></pre>
+            <pre><code>npm run dev</code></pre>
+        </li>
+        <li>
+            Abra o navegador e acesse <code>http://localhost:8000</code> (ou outra porta, se configurada).
+        </li>
+    </ol>
+    <h2>Contribuições</h2>
+    <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar pull requests.</p>
+    
 </p>
 
-## Sobre o Projeto  Asa
 
-o projeto asa foi idelizado como um teste onde analisaria meu codigo fonte e meu concept de arquitetura validando todos os pontos de um profissonal Senior.
 
-## Como Rodar o Projeto
 
-##1 - rodar um composer install
-##2 - configurar o env com banco e chaves do asaas pois sao todas direcionadas para o env
-##3 - verificar se seu token do asaas esta correto
-##4 -
