@@ -42,11 +42,7 @@
         <li>
             Abra o navegador e acesse <code>http://localhost:8000</code> (ou outra porta, se configurada).
         </li>
-    </ol>
-    <h2>Contribuições</h2>
-    <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar pull requests.</p>
-    
-</p>
+    </ol>    
 
 
 
