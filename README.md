@@ -34,6 +34,10 @@
             Configuração do Env:
               <pre><code>  Copie o arquivo env.example e na copia preencha os dados do banco e do asaas e altere o nome para .env</code></pre>
         </li>
+         <li>
+            Configuração do Banco De Dados:
+              <pre><code>  php artisan migrate</code></pre>
+        </li>
     </ol>
     <h2>Configuração do Ambiente de Desenvolvimento</h2>
     <ol>
