@@ -12,7 +12,7 @@
         Antes de começar, certifique-se de ter os seguintes requisitos instalados:
     </p>
     <ul>
-        <li>Conta no SandBox do Asaas</li>
+        <li>Conta no SandBox do Asaas e ter Registrado o Token no env</li>
         <li>Ter PHP8.2 na maquina</li>
     </ul>
     <h2>Configuração do Ambiente</h2>
