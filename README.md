@@ -28,7 +28,6 @@
         <li>
             Instale as dependências:
             <pre><code>composer install</code></pre>
-            ou
             <pre><code>npm install</code></pre>
         </li>
     </ol>
