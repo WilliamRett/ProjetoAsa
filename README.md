@@ -13,7 +13,7 @@ o projeto asa foi idelizado como um teste onde analisaria meu codigo fonte e meu
 
 ## Como Rodar o Projeto
 
-1 - rodar um composer install
-2 - configurar o env com banco e chaves do asaas pois sao todas direcionadas para o env
-3 - verificar se seu token do asaas esta correto
-4 -
+##1 - rodar um composer install
+##2 - configurar o env com banco e chaves do asaas pois sao todas direcionadas para o env
+##3 - verificar se seu token do asaas esta correto
+##4 -
