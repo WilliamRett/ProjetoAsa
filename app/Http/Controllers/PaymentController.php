@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\PaymentCreditCardRequest;
 use App\Http\Requests\PaymentCustomerRequest;
-use App\Http\Requests\PaymentRequest;
 use App\Services\Asas\Contract\AsasServiceContract;
 use App\Services\Customer\Contract\CustomerServiceContract;
 use App\Services\Payment\Contract\PaymentServiceContract;
@@ -93,7 +92,7 @@ class PaymentController extends Controller
             $validate = $data->getData();
             if (isset($validate->error) || isset($validate->errors)) {
                 Session::flash('payment', [$validate->error ?? $validate->errors]);
-                return redirect()->route('payment/index');
+                return redirect()->route('paymentCredit');
             }
         }
         return view('thanks', ['type' => $type, 'data' => $data]);

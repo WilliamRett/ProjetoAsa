@@ -5,7 +5,6 @@ namespace App\Services\Asas\Contract;
 use App\Http\Requests\CustomersRequest;
 use App\Http\Requests\PaymentCreditCardRequest;
 use App\Http\Requests\PaymentCustomerRequest;
-use Illuminate\Http\Request;
 
 interface AsasServiceContract
 {

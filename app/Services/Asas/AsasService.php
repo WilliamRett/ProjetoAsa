@@ -2,20 +2,18 @@
 
 namespace App\Services\Asas;
 
-use App\Enum\PaymentBillingTypeEnum;
+use GuzzleHttp\Client;
+use Illuminate\Http\Request;
 use App\Http\Requests\CustomersRequest;
-use App\Http\Requests\PaymentCreditCardRequest;
-use App\Http\Requests\PaymentCustomerRequest;
-use App\Http\Resources\AsaasPaymentCreditResource;
-use App\Http\Resources\AssasCustomerResource;
+use GuzzleHttp\Exception\ClientException;
 use App\Http\Resources\AssasPaymentResource;
+use App\Http\Requests\PaymentCustomerRequest;
+use App\Http\Resources\AssasCustomerResource;
+use App\Http\Requests\PaymentCreditCardRequest;
+use App\Http\Resources\AsaasPaymentCreditResource;
 use App\Repositories\Customer\Contract\CustomerRepositoryContract;
 use App\Repositories\Payment\Contract\PaymentRepositoryContract;
 use App\Services\Asas\Contract\AsasServiceContract;
-use App\Services\Customer\CustomerService;
-use Illuminate\Http\Request;
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\ClientException;
 
 class AsasService implements AsasServiceContract
 {
@@ -29,9 +27,6 @@ class AsasService implements AsasServiceContract
     protected $token;
     protected CustomerRepositoryContract $customerRepository;
     protected PaymentRepositoryContract $paymentRepository;
-    protected $pix = PaymentBillingTypeEnum::pix;
-    protected $boleto = PaymentBillingTypeEnum::boleto;
-    protected $creditCard = PaymentBillingTypeEnum::creditCard;
 
     /**
      * AsasService Contructor
@@ -100,7 +95,7 @@ class AsasService implements AsasServiceContract
     }
 
 
-     /**
+    /**
      * @param string $urlType
      * @param Request $request
      *
@@ -149,6 +144,4 @@ class AsasService implements AsasServiceContract
             $this->getApiAsaas('/pix/addressKeys', 'POST', $json);
         }
     }
-
-
 }
