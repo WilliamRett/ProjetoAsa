@@ -2,7 +2,6 @@
 
 namespace App\Repositories\Payment;
 
-use App\Http\Requests\PaymentCustomerRequest;
 use App\Models\Payment;
 use App\Repositories\Payment\Contract\PaymentRepositoryContract;
 

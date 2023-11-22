@@ -79,7 +79,6 @@ class PaymentController extends Controller
      */
     public function paymentCredit(PaymentCreditCardRequest $request): mixed
     {
-        // dd($request->all());
         $validated = $request->validated();
 
         if (!$validated) {

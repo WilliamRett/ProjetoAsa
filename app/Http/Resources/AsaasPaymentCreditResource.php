@@ -36,7 +36,6 @@ class AsaasPaymentCreditResource extends JsonResource
             'status' => $this->status,
             'dueDate' => $this->dueDate,
             'originalDueDate' => $this->originalDueDate,
-            // Adicione outros campos conforme necessário
             'invoiceUrl' => $this->invoiceUrl,
             'invoiceNumber' => $this->invoiceNumber,
             'externalReference' => $this->externalReference,
