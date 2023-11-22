@@ -27,6 +27,7 @@
         </li>
         <li>
             Instale as dependências:
+             <pre><code>sudo apt-get install nodejs</code></pre>
             <pre><code>composer install</code></pre>
             <pre><code>npm install</code></pre>
         </li>
